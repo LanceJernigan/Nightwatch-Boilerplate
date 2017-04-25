@@ -1,0 +1,33 @@
+{
+  "src_folders": ["./tests"],
+  "output_folder": "./output",
+  "test_workers": false,
+  "selenium": {
+    "start_process": true,
+    "log_path": false,
+    "server_path": "./bin/selenium.jar",
+    "host": "127.0.0.1",
+    "port": 4444,
+    "cli_args": {
+      "webdriver.chrome.driver": "./bin/chromedriver"
+    }
+  },
+
+  "test_settings": {
+    "default": {
+      "filter": "**/*.js",
+      "selenium_port": 4444,
+      "serenium_host": "127.0.0.1",
+      "compatible_testcase_support": true,
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    },
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true
+      }
+    }
+  }
+}
