@@ -4,7 +4,7 @@ A simple boilerplate that allows you to quickly get setup with a Nightwatch test
 
 # Setup
 
-    1. `git clone https://github.com/LanceJernigan/Nightwatch-Boilerplate.git`
+    1. git clone https://github.com/LanceJernigan/Nightwatch-Boilerplate.git
     2. cd Nightwatch-Boilerplate
     3. yarn install
     
