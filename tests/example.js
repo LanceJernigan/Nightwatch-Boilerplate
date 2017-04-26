@@ -9,7 +9,7 @@
 
 module.exports = {
   
-  'Demo test Google': function(client) {
+  'Google <body> Loaded': function(client) {
     
     client
       .url('www.google.com')                  //  Direct the client to www.google.com
